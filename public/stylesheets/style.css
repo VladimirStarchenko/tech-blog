@@ -1,0 +1,57 @@
+body {
+  background-color: #f5f7d3;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #3f2300;
+  width: 100%;
+  height: 17%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  vertical-align: 10px;
+}
+
+.header-grid {
+  display: grid;
+  position: absolute;
+  left: 10px;
+}
+
+.header-tabs a {
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.web-name {
+  top: 0;
+  left: 0;
+  display: inline;
+  color: #3f2300;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  background-color: #f5f7d3;
+  box-shadow: 5px 5px #dadcb8;
+  font-size: 35px;
+}
+
+.post-container {
+  display: grid;
+  position: absolute;
+  top: 180px;
+  margin: 0 100px 0 100px;
+}
+
+.post-title {
+  background-color: #3f2300;
+  color: white;
+  padding: 5px 15px 5px;
+}
