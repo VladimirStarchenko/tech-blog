@@ -1,0 +1,40 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <title>TECHZETTE</title>
+  </head>
+  
+  <body>
+    <header>
+      <div class="header-grid">
+        <div class="header-tabs">
+          <nav>
+            <a href="/">Home</a>
+          {{#if loggedIn}}
+            <a href="/dashboard">Dashboard</a>
+            <button id="logout" class="btn-no-style">Logout</button>
+          {{else}}
+            <a href="/login">login</a>
+          {{/if}}
+        </nav> 
+        </div>
+        <h1 class="web-name">TECHZETTE</h1>
+      </div>
+    </header>
+    <main>
+        {{{body}}}
+    </main>
+      <footer class="footer-elm">
+        © STARCHENKO TECHNOLOGIES 💾
+      </footer>
+    </div>
+
+    {{#if loggedIn}}
+      <script src="/javascript/logout.js"></script>
+    {{/if}}
+  </body>
+
+</html>
